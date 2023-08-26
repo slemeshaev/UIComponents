@@ -15,6 +15,7 @@
 		66AB265F2A98F698008BEAB6 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AB265E2A98F698008BEAB6 /* MainViewController.storyboard */; };
 		66AB26662A98F950008BEAB6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB26652A98F950008BEAB6 /* UIViewController.swift */; };
 		66AB26682A98F96E008BEAB6 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB26672A98F96E008BEAB6 /* NavigationRouter.swift */; };
+		66AB266A2A99DB30008BEAB6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB26692A99DB30008BEAB6 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		66AB265E2A98F698008BEAB6 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
 		66AB26652A98F950008BEAB6 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		66AB26672A98F96E008BEAB6 /* NavigationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		66AB26692A99DB30008BEAB6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,9 @@
 		66AB265B2A98F647008BEAB6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				66AB265C2A98F68A008BEAB6 /* MainViewController.swift */,
 				66AB265E2A98F698008BEAB6 /* MainViewController.storyboard */,
+				66AB265C2A98F68A008BEAB6 /* MainViewController.swift */,
+				66AB26692A99DB30008BEAB6 /* MainTableViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				66AB26402A98F13E008BEAB6 /* AppDelegate.swift in Sources */,
 				66AB26662A98F950008BEAB6 /* UIViewController.swift in Sources */,
 				66AB26682A98F96E008BEAB6 /* NavigationRouter.swift in Sources */,
+				66AB266A2A99DB30008BEAB6 /* MainTableViewCell.swift in Sources */,
 				66AB26422A98F13E008BEAB6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
