@@ -15,7 +15,7 @@ class MainViewController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
     
     // MARK: - Properties
-    private let mainItems = ["Components", "Animations"]
+    private let mainItems = ["UI-components", "Animations"]
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
